@@ -1,0 +1,216 @@
+[
+	{"Year":"1960",
+	"DeathRate":22.423,
+	"BirthRate":42.107},
+	
+	{"Year":"1961",
+	"DeathRate":21.877,
+	"BirthRate":41.865},
+	
+	{"Year":"1962",
+	"DeathRate":21.337,
+	"BirthRate":41.602},
+	
+	{"Year":"1963",
+	"DeathRate":20.8,
+	"BirthRate":41.317},
+	
+	{"Year":"1964",
+	"DeathRate":20.267,
+	"BirthRate":41.013},
+	
+	{"Year":"1965",
+	"DeathRate":19.739,
+	"BirthRate":40.696},
+	
+	{"Year":"1966",
+	"DeathRate":19.217,
+	"BirthRate":40.374},
+	
+	{"Year":"1967",
+	"DeathRate":18.703,
+	"BirthRate":40.057},
+	
+	{"Year":"1968",
+	"DeathRate":18.199,
+	"BirthRate":39.747},
+	
+	{"Year":"1969",
+	"DeathRate":17.706,
+	"BirthRate":39.447},
+	
+	{"Year":"1970",
+	"DeathRate":17.224,
+	"BirthRate":39.15},
+	
+	{"Year":"1971",
+	"DeathRate":16.752,
+	"BirthRate":38.847},
+	
+	{"Year":"1972",
+	"DeathRate":16.29,
+	"BirthRate":38.529},
+	
+	{"Year":"1973",
+	"DeathRate":15.84,
+	"BirthRate":38.193},
+	
+	{"Year":"1974",
+	"DeathRate":15.403,
+	"BirthRate":37.842},
+	
+	{"Year":"1975",
+	"DeathRate":14.985,
+	"BirthRate":37.491},
+	
+	{"Year":"1976",
+	"DeathRate":14.59,
+	"BirthRate":37.156},
+	
+	{"Year":"1977",
+	"DeathRate":14.222,
+	"BirthRate":36.852},
+	
+	{"Year":"1978",
+	"DeathRate":13.881,
+	"BirthRate":36.58},
+	
+	{"Year":"1979",
+	"DeathRate":13.569,
+	"BirthRate":36.334},
+	
+	{"Year":"1980",
+	"DeathRate":13.283,
+	"BirthRate":36.098},
+	
+	{"Year":"1981",
+	"DeathRate":13.023,
+	"BirthRate":35.85},
+	
+	{"Year":"1982",
+	"DeathRate":12.783,
+	"BirthRate":35.565},
+	
+	{"Year":"1983",
+	"DeathRate":12.556,
+	"BirthRate":35.227},
+	
+	{"Year":"1984",
+	"DeathRate":12.336,
+	"BirthRate":34.828},
+	
+	{"Year":"1985",
+	"DeathRate":12.116,
+	"BirthRate":34.366},
+	
+	{"Year":"1986",
+	"DeathRate":11.887,
+	"BirthRate":33.844},
+	
+	{"Year":"1987",
+	"DeathRate":11.647,
+	"BirthRate":33.281},
+	
+	{"Year":"1988",
+	"DeathRate":11.395,
+	"BirthRate":32.694},
+	
+	{"Year":"1989",
+	"DeathRate":11.131,
+	"BirthRate":32.095},
+	
+	{"Year":"1990",
+	"DeathRate":10.858,
+	"BirthRate":31.498},
+	
+	{"Year":"1991",
+	"DeathRate":10.581,
+	"BirthRate":30.912},
+	
+	{"Year":"1992",
+	"DeathRate":10.307,
+	"BirthRate":30.343},
+	
+	{"Year":"1993",
+	"DeathRate":10.043,
+	"BirthRate":29.794},
+	
+	{"Year":"1994",
+	"DeathRate":9.793,
+	"BirthRate":29.267},
+	
+	{"Year":"1995",
+	"DeathRate":9.563,
+	"BirthRate":28.766},
+	
+	{"Year":"1996",
+	"DeathRate":9.352,
+	"BirthRate":28.286},
+	
+	{"Year":"1997",
+	"DeathRate":9.161,
+	"BirthRate":27.822},
+	
+	{"Year":"1998",
+	"DeathRate":8.986,
+	"BirthRate":27.365},
+	
+	{"Year":"1999",
+	"DeathRate":8.828,
+	"BirthRate":26.911},
+	
+	{"Year":"2000",
+	"DeathRate":8.684,
+	"BirthRate":26.459},
+	
+	{"Year":"2001",
+	"DeathRate":8.553,
+	"BirthRate":26.004},
+	
+	{"Year":"2002",
+	"DeathRate":8.433,
+	"BirthRate":25.547},
+	
+	{"Year":"2003",
+	"DeathRate":8.32,
+	"BirthRate":25.087},
+	
+	{"Year":"2004",
+	"DeathRate":8.213,
+	"BirthRate":24.622},
+	
+	{"Year":"2005",
+	"DeathRate":8.109,
+	"BirthRate":24.146},
+	
+	{"Year":"2006",
+	"DeathRate":8.005,
+	"BirthRate":23.653},
+	
+	{"Year":"2007",
+	"DeathRate":7.901,
+	"BirthRate":23.144},
+	
+	{"Year":"2008",
+	"DeathRate":7.8,
+	"BirthRate":22.625},
+	
+	{"Year":"2009",
+	"DeathRate":7.7,
+	"BirthRate":22.103},
+	
+	{"Year":"2010",
+	"DeathRate":7.606,
+	"BirthRate":21.595},
+	
+	{"Year":"2011",
+	"DeathRate":7.52,
+	"BirthRate":21.116},
+	
+	{"Year":"2012",
+	"DeathRate":7.446,
+	"BirthRate":20.679},
+	
+	{"Year":"2013",
+	"DeathRate":7.385,
+	"BirthRate":20.291}]

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <script src="http://d3js.org/d3.v3.js"></script>
+ <style type="text/css">
+   .line {
+ fill: none;
+ stroke: steelblue;
+ stroke-width: 2px;
+}
+ body {
+ font: 12px Helvetica;
+}
+
+
+ </style>
+</head>
+<meta charset="utf-8">
+<body>
+</body>
+<script>
+
+var margin = {top: 20, right: 50, bottom: 30, left: 50},
+   width = 2000 - margin.left - margin.right,
+   height = 500 - margin.top - margin.bottom;
+
+var x = d3.scale.ordinal()
+       .rangeRoundBands([0, width], .35);
+
+var y = d3.scale.linear()
+   .range([height, 0]);
+
+var color = d3.scale.category10();
+
+var xAxis = d3.svg.axis()
+   .scale(x)
+   .orient("bottom");
+
+var yAxis = d3.svg.axis()
+   .scale(y)
+   .orient("left")
+   .tickFormat(d3.format(".2s"))
+   .ticks(6);
+
+var line = d3.svg.line()
+   .interpolate("basis")
+   .x(function(d) { return x(d.Year); })
+   .y(function(d) { return y(d.count); });
+
+var svg = d3.select("body").append("svg")
+   .attr("width", width + margin.left + margin.right)
+   .attr("height", height + margin.top + margin.bottom)
+ .append("g")
+   .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+var names=["DeathRate","BirthRate"];
+
+d3.json("text2.JSON", function(error, data) {
+ color.domain(d3.keys(data[0]).filter(function(key) { 
+   return key !== "Year"; }));
+  
+var counter = color.domain().map(function(d) {
+   return {
+     name: d,
+     values: data.map(function(b) {
+       return {Year: b.Year, count: +b[d]};
+     })
+   };
+ });
+
+x.domain(data.map(function(d) {
+
+ return parseInt(d.Year); }));
+
+
+
+y.domain([
+   d3.min(counter, function(c) { return d3.min(c.values, function(v) { return v.count; }); }),
+   d3.max(counter, function(c) { return d3.max(c.values, function(v) { return v.count; }); })
+ ]);
+
+svg.append("g")
+     .attr("class", "axis")
+     .attr("transform", "translate(0," + height + ")")
+     .call(xAxis)
+     .append("text")
+     .attr("x", 1850)
+     .attr("dy", "0.01em")
+     .attr("text-anchor", "start")
+     .attr("fill", "#000")
+     .text("Year");
+
+
+svg.append("g")
+     .attr("class", "y axis")
+     .call(yAxis)
+     .append("text")
+     .attr("transform", "rotate(-90)")
+     .attr("y", 7)
+     .attr("dy", "0.35em")
+     .attr("text-anchor", "end")
+     .attr("fill", "#000")
+     .text("Rate");
+
+
+var DeathRate = svg.selectAll(".DeathRate")
+     .data(counter)
+   .enter().append("g")
+     .attr("class", "DeathRate");
+
+var path = svg.selectAll(".DeathRate").append("path")
+     .attr("class", "line")
+     .attr("d", function(d) { return line(d.values); })
+     .style("stroke", function(d) { if (d.name == "DeathRate") 
+                                       {return "#1f77b4 ";}
+                                     else {return "#ff7f0e ";}
+                                       });
+
+svg.append("text")
+  .attr("transform", "translate(" + (width) + "," + y(data[0].Arrest) + ")")
+   .attr("y",6)
+   .attr("dy", "35px")
+  .attr("text-anchor", "start")
+   .style("fill", "red")
+   .text("DeathRate");
+
+ svg.append("text")
+   .attr("transform", "translate(" + (width) + "," + y(data[0].Noarrest) + ")")
+     .attr("y",0)
+   .attr("dy", "250px")
+   .attr("dx",".5em")
+   .attr("text-anchor", "start")
+   .style("fill", "steelblue")
+   .text("BirthRate");
+
+});
+</script>

@@ -1,0 +1,216 @@
+[
+	{"Year":"1960",
+	"ExpectancyOfMale":50.44865797734651,
+	"ExpectancyOfFeMale":53.71106917882005},
+	
+	{"Year":"1961",
+	"ExpectancyOfMale":51.08065773967501,
+	"ExpectancyOfFeMale":54.374505176193814},
+	
+	{"Year":"1962",
+	"ExpectancyOfMale":51.70259318618054,
+	"ExpectancyOfFeMale":55.031010101134484},
+	
+	{"Year":"1963",
+	"ExpectancyOfMale":52.31204703804719,
+	"ExpectancyOfFeMale":55.67982904944913},
+	
+	{"Year":"1964",
+	"ExpectancyOfMale":52.90666457582841,
+	"ExpectancyOfFeMale":56.31932988385943},
+	
+	{"Year":"1965",
+	"ExpectancyOfMale":53.481015347145096,
+	"ExpectancyOfFeMale":56.94490957827173},
+	
+	{"Year":"1966",
+	"ExpectancyOfMale":54.03037011360579,
+	"ExpectancyOfFeMale":57.55065973241732},
+	
+	{"Year":"1967",
+	"ExpectancyOfMale":54.55344840753439,
+	"ExpectancyOfFeMale":58.133254016425056},
+	
+	{"Year":"1968",
+	"ExpectancyOfMale":55.0522679370888,
+	"ExpectancyOfFeMale":58.69266336140092},
+	
+	{"Year":"1969",
+	"ExpectancyOfMale":55.529711502832996,
+	"ExpectancyOfFeMale":59.23032956751495},
+	
+	{"Year":"1970",
+	"ExpectancyOfMale":56.031575131521706,
+	"ExpectancyOfFeMale":59.81627504312674},
+	
+	{"Year":"1971",
+	"ExpectancyOfMale":56.48865319985905,
+	"ExpectancyOfFeMale":60.32254251567588},
+	
+	{"Year":"1972",
+	"ExpectancyOfMale":56.94790058170992,
+	"ExpectancyOfFeMale":60.80992121518086},
+	
+	{"Year":"1973",
+	"ExpectancyOfMale":57.421649439924835,
+	"ExpectancyOfFeMale":61.30971534021658},
+	
+	{"Year":"1974",
+	"ExpectancyOfMale":57.898736069515536,
+	"ExpectancyOfFeMale":61.830108484326885},
+	
+	{"Year":"1975",
+	"ExpectancyOfMale":58.35751040280158,
+	"ExpectancyOfFeMale":62.322066193691676},
+	
+	{"Year":"1976",
+	"ExpectancyOfMale":58.82404266718266,
+	"ExpectancyOfFeMale":62.829326581727564},
+	
+	{"Year":"1977",
+	"ExpectancyOfMale":59.266244036271495,
+	"ExpectancyOfFeMale":63.34208827144887},
+	
+	{"Year":"1978",
+	"ExpectancyOfMale":59.69556245571493,
+	"ExpectancyOfFeMale":63.832471116940816},
+	
+	{"Year":"1979",
+	"ExpectancyOfMale":60.07876930730857,
+	"ExpectancyOfFeMale":64.29238901373066},
+	
+	{"Year":"1980",
+	"ExpectancyOfMale":60.5494332467239,
+	"ExpectancyOfFeMale":64.82402421903303},
+	
+	{"Year":"1981",
+	"ExpectancyOfMale":60.92880824553224,
+	"ExpectancyOfFeMale":65.24961857912032},
+	
+	{"Year":"1982",
+	"ExpectancyOfMale":61.3197825667881,
+	"ExpectancyOfFeMale":65.67160508706205},
+	
+	{"Year":"1983",
+	"ExpectancyOfMale":61.704735894066765,
+	"ExpectancyOfFeMale":66.10315569757144},
+	
+	{"Year":"1984",
+	"ExpectancyOfMale":62.0880296378697,
+	"ExpectancyOfFeMale":66.5279076472529},
+	
+	{"Year":"1985",
+	"ExpectancyOfMale":62.50652541150007,
+	"ExpectancyOfFeMale":66.93531549787934},
+	
+	{"Year":"1986",
+	"ExpectancyOfMale":63.000048052881674,
+	"ExpectancyOfFeMale":67.37971833277628},
+	
+	{"Year":"1987",
+	"ExpectancyOfMale":63.3989694531306,
+	"ExpectancyOfFeMale":67.77054979682086},
+	
+	{"Year":"1988",
+	"ExpectancyOfMale":63.746613483783264,
+	"ExpectancyOfFeMale":68.10760103729174},
+	
+	{"Year":"1989",
+	"ExpectancyOfMale":64.03726259361079,
+	"ExpectancyOfFeMale":68.44025112348568},
+	
+	{"Year":"1990",
+	"ExpectancyOfMale":64.34861617466034,
+	"ExpectancyOfFeMale":68.78262695749535},
+	
+	{"Year":"1991",
+	"ExpectancyOfMale":64.6241856014004,
+	"ExpectancyOfFeMale":69.07027712340665},
+	
+	{"Year":"1992",
+	"ExpectancyOfMale":64.8450972566693,
+	"ExpectancyOfFeMale":69.29137658274642},
+	
+	{"Year":"1993",
+	"ExpectancyOfMale":64.9429558574201,
+	"ExpectancyOfFeMale":69.51691395858637},
+	
+	{"Year":"1994",
+	"ExpectancyOfMale":65.09837515201069,
+	"ExpectancyOfFeMale":69.78579549612624},
+	
+	{"Year":"1995",
+	"ExpectancyOfMale":65.35957324762703,
+	"ExpectancyOfFeMale":70.07837705706964},
+	
+	{"Year":"1996",
+	"ExpectancyOfMale":65.64725250653068,
+	"ExpectancyOfFeMale":70.37067298071935},
+	
+	{"Year":"1997",
+	"ExpectancyOfMale":66.00223960866288,
+	"ExpectancyOfFeMale":70.69060132998757},
+	
+	{"Year":"1998",
+	"ExpectancyOfMale":66.30242651061802,
+	"ExpectancyOfFeMale":70.9730147455168},
+	
+	{"Year":"1999",
+	"ExpectancyOfMale":66.59244241727995,
+	"ExpectancyOfFeMale":71.3289479379591},
+	
+	{"Year":"2000",
+	"ExpectancyOfMale":66.83078846386884,
+	"ExpectancyOfFeMale":71.63109396308852},
+	
+	{"Year":"2001",
+	"ExpectancyOfMale":67.12688202575288,
+	"ExpectancyOfFeMale":71.96547805431162},
+	
+	{"Year":"2002",
+	"ExpectancyOfMale":67.38338523504837,
+	"ExpectancyOfFeMale":72.25587161859112},
+	
+	{"Year":"2003",
+	"ExpectancyOfMale":67.62279206831073,
+	"ExpectancyOfFeMale":72.52130710956547},
+	
+	{"Year":"2004",
+	"ExpectancyOfMale":67.87477179632063,
+	"ExpectancyOfFeMale":72.81098746299652},
+	
+	{"Year":"2005",
+	"ExpectancyOfMale":68.0951380629969,
+	"ExpectancyOfFeMale":73.0663076697833},
+	
+	{"Year":"2006",
+	"ExpectancyOfMale":68.39146920998593,
+	"ExpectancyOfFeMale":73.34288127855771},
+	
+	{"Year":"2007",
+	"ExpectancyOfMale":68.64526144120586,
+	"ExpectancyOfFeMale":73.6210094491391},
+	
+	{"Year":"2008",
+	"ExpectancyOfMale":68.92261115312813,
+	"ExpectancyOfFeMale":73.85621138481316},
+	
+	{"Year":"2009",
+	"ExpectancyOfMale":69.25553553214438,
+	"ExpectancyOfFeMale":74.15940977052765},
+	
+	{"Year":"2010",
+	"ExpectancyOfMale":69.46741714481556,
+	"ExpectancyOfFeMale":74.38496570588349},
+	
+	{"Year":"2011",
+	"ExpectancyOfMale":69.75124828847676,
+	"ExpectancyOfFeMale":74.66755598422208},
+	
+	{"Year":"2012",
+	"ExpectancyOfMale":70.0323351065359,
+	"ExpectancyOfFeMale":74.92430713321208},
+	
+	{"Year":"2013",
+	"ExpectancyOfMale":70.31861649504309,
+	"ExpectancyOfFeMale":75.18252536660499}]
